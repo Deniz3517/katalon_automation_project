@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SetupTearsDown,Chrome 133.0.6943.127,,,21-02-2025 14:43:37,21-02-2025 14:43:47,9.968s,PASSED
+,,,,,,,
+Test Cases/TearsDownTest,Chrome 133.0.6943.127,,,21-02-2025 14:43:42,21-02-2025 14:43:47,5.505s,PASSED
+Start setup action : setupTestCase,Chrome 133.0.6943.127,,,21-02-2025 14:43:42,21-02-2025 14:43:42,0.004s,PASSED
+"click(findTestObject(""Object Repository/Page_Automation Exercise/p_Consent""))",Chrome 133.0.6943.127,,,21-02-2025 14:43:42,21-02-2025 14:43:42,0.311s,PASSED
+"click(findTestObject(""Object Repository/Page_Automation Exercise/a_Signup  Login""))",Chrome 133.0.6943.127,,,21-02-2025 14:43:42,21-02-2025 14:43:46,3.558s,PASSED
+"setText(findTestObject(""Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_email""), ""de"")",Chrome 133.0.6943.127,,,21-02-2025 14:43:46,21-02-2025 14:43:47,0.963s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_password""), ""lQ+BfW/Kvgc="")",Chrome 133.0.6943.127,,,21-02-2025 14:43:47,21-02-2025 14:43:47,0.293s,PASSED
+"click(findTestObject(""Object Repository/Page_Automation Exercise - Signup  Login/button_Login""))",Chrome 133.0.6943.127,,,21-02-2025 14:43:47,21-02-2025 14:43:47,0.265s,PASSED
+Start tear down : tearDownTestCase,Chrome 133.0.6943.127,,,21-02-2025 14:43:47,21-02-2025 14:43:47,0.066s,PASSED
