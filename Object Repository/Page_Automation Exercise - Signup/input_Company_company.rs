@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Login to your account_email</name>
+   <name>input_Company_company</name>
    <tag></tag>
-   <elementGuidId>71db84ab-16d6-485e-a780-a757b81b80c8</elementGuidId>
+   <elementGuidId>9ae90928-1acf-4a50-8a1b-d9524c8db663</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='email']</value>
+         <value>//input[@id='company']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;email&quot;]</value>
+         <value>#company</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>form >> internal:has-text=&quot;Login&quot;i >> internal:attr=[placeholder=&quot;Email Address&quot;i]</value>
+         <value>internal:label=&quot;Company&quot;s</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,78 +29,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>eefbf5de-c704-4f96-a05d-46d413236d71</webElementGuid>
+      <webElementGuid>8941c136-c9e0-4baf-9e22-3f35cc202868</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>3a123fa2-69bc-4048-841a-308aeb58190d</webElementGuid>
+      <value>text</value>
+      <webElementGuid>c2628d14-52e8-4f4c-ba56-70c92fd54c4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-qa</name>
       <type>Main</type>
-      <value>login-email</value>
-      <webElementGuid>28b6e516-9df0-4262-bdfe-8c7a0b578b4d</webElementGuid>
+      <value>company</value>
+      <webElementGuid>79bad026-2325-470c-ac20-9277a05d7999</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>dbd5f9e3-4b20-4124-b293-6af69e222e0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>id</name>
       <type>Main</type>
-      <value>Email Address</value>
-      <webElementGuid>d336c01d-2468-4018-a807-2884c5c2cd37</webElementGuid>
+      <value>company</value>
+      <webElementGuid>87ba9b1b-80a6-4c6f-8087-e476272e0ca1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>a4869f95-31a6-45cf-a897-4887668513dc</webElementGuid>
+      <value>company</value>
+      <webElementGuid>5b13ae9c-7999-445d-a1d9-1731943689c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-4 col-sm-offset-1&quot;]/div[@class=&quot;login-form&quot;]/form[1]/input[2]</value>
-      <webElementGuid>57cb5808-8c7d-4b82-b0b8-6d4855ab5919</webElementGuid>
+      <value>id(&quot;company&quot;)</value>
+      <webElementGuid>2bc2d1b6-31ff-4d4e-b06a-dcbaf27cd8cb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='email']</value>
-      <webElementGuid>189547ef-f1b7-4e36-81a6-a24caba0cd2b</webElementGuid>
+      <value>//input[@id='company']</value>
+      <webElementGuid>ad99201f-1bfa-48e9-b996-d106ba186e0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='form']/div/div/div/div/form/input[2]</value>
-      <webElementGuid>75058d81-d8b6-4abd-b699-dbae8112ecfd</webElementGuid>
+      <value>//section[@id='form']/div/div/div/div/form/p[3]/input</value>
+      <webElementGuid>a47df97c-efcc-4efa-8a51-418226b3b9de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input[2]</value>
-      <webElementGuid>0b709e3c-d137-4403-b355-3525a2596c01</webElementGuid>
+      <value>//p[3]/input</value>
+      <webElementGuid>0c74566d-abb0-4b4d-bb70-c544b79687f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'email' and @placeholder = 'Email Address' and @name = 'email']</value>
-      <webElementGuid>18ce311c-cd9e-441e-8fec-1497d0af8437</webElementGuid>
+      <value>//input[@type = 'text' and @id = 'company' and @name = 'company']</value>
+      <webElementGuid>d483bee7-8f5e-4d46-9b09-8410fc061f49</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

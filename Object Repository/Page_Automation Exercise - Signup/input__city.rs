@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Login to your account_email</name>
+   <name>input__city</name>
    <tag></tag>
-   <elementGuidId>71db84ab-16d6-485e-a780-a757b81b80c8</elementGuidId>
+   <elementGuidId>2ff3c996-0601-429c-ab3d-bb67e282e258</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='email']</value>
+         <value>//input[@id='city']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;email&quot;]</value>
+         <value>#city</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>form >> internal:has-text=&quot;Login&quot;i >> internal:attr=[placeholder=&quot;Email Address&quot;i]</value>
+         <value>internal:label=&quot;City *&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,78 +29,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>eefbf5de-c704-4f96-a05d-46d413236d71</webElementGuid>
+      <webElementGuid>b1f4e37b-9906-49bb-b737-0273249665e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>3a123fa2-69bc-4048-841a-308aeb58190d</webElementGuid>
+      <value>text</value>
+      <webElementGuid>ade198af-70de-4bae-9539-99262539d690</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-qa</name>
       <type>Main</type>
-      <value>login-email</value>
-      <webElementGuid>28b6e516-9df0-4262-bdfe-8c7a0b578b4d</webElementGuid>
+      <value>city</value>
+      <webElementGuid>be8f7a72-a8ba-4be3-953e-af9f1354736c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>class</name>
       <type>Main</type>
-      <value>Email Address</value>
-      <webElementGuid>d336c01d-2468-4018-a807-2884c5c2cd37</webElementGuid>
+      <value>form-control</value>
+      <webElementGuid>dcf93f0d-ece1-4384-84e7-03a0acf75562</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>a4869f95-31a6-45cf-a897-4887668513dc</webElementGuid>
+      <value>city</value>
+      <webElementGuid>f4e376ff-7bf3-4e35-8543-198175c718b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>city</value>
+      <webElementGuid>78d75ed7-c333-4b14-8917-f5fc1595dfe9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-4 col-sm-offset-1&quot;]/div[@class=&quot;login-form&quot;]/form[1]/input[2]</value>
-      <webElementGuid>57cb5808-8c7d-4b82-b0b8-6d4855ab5919</webElementGuid>
+      <value>id(&quot;city&quot;)</value>
+      <webElementGuid>74a05bd2-7d24-49f1-873a-77a6b0488f3f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='email']</value>
-      <webElementGuid>189547ef-f1b7-4e36-81a6-a24caba0cd2b</webElementGuid>
+      <value>//input[@id='city']</value>
+      <webElementGuid>0960f7aa-b675-401a-8fe5-df67538a493e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='form']/div/div/div/div/form/input[2]</value>
-      <webElementGuid>75058d81-d8b6-4abd-b699-dbae8112ecfd</webElementGuid>
+      <value>//section[@id='form']/div/div/div/div/form/p[8]/input</value>
+      <webElementGuid>82cb0492-eae1-4988-b33f-dc2156395f80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input[2]</value>
-      <webElementGuid>0b709e3c-d137-4403-b355-3525a2596c01</webElementGuid>
+      <value>//p[8]/input</value>
+      <webElementGuid>f337aa0e-58cc-4629-9692-d824e83d20b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'email' and @placeholder = 'Email Address' and @name = 'email']</value>
-      <webElementGuid>18ce311c-cd9e-441e-8fec-1497d0af8437</webElementGuid>
+      <value>//input[@type = 'text' and @name = 'city' and @id = 'city']</value>
+      <webElementGuid>933655ba-7f9e-4c06-a9d5-ef2c1828f737</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

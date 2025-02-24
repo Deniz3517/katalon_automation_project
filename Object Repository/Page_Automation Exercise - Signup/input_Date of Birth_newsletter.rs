@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Login to your account_email</name>
+   <name>input_Date of Birth_newsletter</name>
    <tag></tag>
-   <elementGuidId>71db84ab-16d6-485e-a780-a757b81b80c8</elementGuidId>
+   <elementGuidId>c3fd36c7-f3e3-426a-a700-17a7297cffea</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='email']</value>
+         <value>//input[@id='newsletter']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;email&quot;]</value>
+         <value>#newsletter</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>form >> internal:has-text=&quot;Login&quot;i >> internal:attr=[placeholder=&quot;Email Address&quot;i]</value>
+         <value>internal:label=&quot;Sign up for our newsletter!&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,78 +29,78 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>eefbf5de-c704-4f96-a05d-46d413236d71</webElementGuid>
+      <webElementGuid>4cebed50-922d-41c0-bac0-0ccd6d286534</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>3a123fa2-69bc-4048-841a-308aeb58190d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-qa</name>
-      <type>Main</type>
-      <value>login-email</value>
-      <webElementGuid>28b6e516-9df0-4262-bdfe-8c7a0b578b4d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Email Address</value>
-      <webElementGuid>d336c01d-2468-4018-a807-2884c5c2cd37</webElementGuid>
+      <value>checkbox</value>
+      <webElementGuid>be6eef60-868f-4eca-bbf8-a3ab79672e78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>a4869f95-31a6-45cf-a897-4887668513dc</webElementGuid>
+      <value>newsletter</value>
+      <webElementGuid>745b84b7-eb76-4106-b8f6-8f23a17c04f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>newsletter</value>
+      <webElementGuid>3198e79e-3af4-431e-aeb5-527c05367f6d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>3de43c5c-9ff0-4990-9e47-be843be54f64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-4 col-sm-offset-1&quot;]/div[@class=&quot;login-form&quot;]/form[1]/input[2]</value>
-      <webElementGuid>57cb5808-8c7d-4b82-b0b8-6d4855ab5919</webElementGuid>
+      <value>id(&quot;newsletter&quot;)</value>
+      <webElementGuid>6ea650e8-7d32-4db6-862f-9468d7ee9666</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='email']</value>
-      <webElementGuid>189547ef-f1b7-4e36-81a6-a24caba0cd2b</webElementGuid>
+      <value>//input[@id='newsletter']</value>
+      <webElementGuid>f28198ff-c17a-40dd-89ae-c912a8c129cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='form']/div/div/div/div/form/input[2]</value>
-      <webElementGuid>75058d81-d8b6-4abd-b699-dbae8112ecfd</webElementGuid>
+      <value>//div[@id='uniform-newsletter']/span/input</value>
+      <webElementGuid>bde1d925-06b7-4093-ae4e-9083809b3e05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input[2]</value>
-      <webElementGuid>0b709e3c-d137-4403-b355-3525a2596c01</webElementGuid>
+      <value>//div[6]/div/span/input</value>
+      <webElementGuid>20483704-a053-42c7-8e5f-c05cdbae2aae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'email' and @placeholder = 'Email Address' and @name = 'email']</value>
-      <webElementGuid>18ce311c-cd9e-441e-8fec-1497d0af8437</webElementGuid>
+      <value>//input[@type = 'checkbox' and @name = 'newsletter' and @id = 'newsletter']</value>
+      <webElementGuid>c56db022-bcf6-47cb-b923-cc15b2da8c10</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

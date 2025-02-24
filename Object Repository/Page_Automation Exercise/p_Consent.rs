@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>4587e14b-bc4c-4c92-86a9-099cca738567</webElementGuid>
+      <webElementGuid>4f337d19-130f-4e2f-b374-8b3b5f4f2d03</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>fc-button-label</value>
-      <webElementGuid>04ce7f4d-22f9-41bc-8971-096bb37dcf70</webElementGuid>
+      <webElementGuid>a40e43e2-3963-4f8d-b696-64ca98ffa291</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Consent</value>
-      <webElementGuid>8da48962-1f1a-4985-bfc3-0d6e3819936c</webElementGuid>
+      <webElementGuid>53a736ea-9f65-47a9-923f-c23f7229175e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;fc-consent-root&quot;]/div[@class=&quot;fc-dialog-container&quot;]/div[@class=&quot;fc-dialog fc-choice-dialog&quot;]/div[@class=&quot;fc-footer-buttons-container&quot;]/div[@class=&quot;fc-footer-buttons&quot;]/button[@class=&quot;fc-button fc-cta-consent fc-primary-button&quot;]/p[@class=&quot;fc-button-label&quot;]</value>
-      <webElementGuid>a30eb957-5d7a-4cf4-a1a3-646925d5622a</webElementGuid>
+      <webElementGuid>6dba57b9-2783-4a12-96bf-fa80be3b28e4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Do I have to consent to everything?'])[1]/following::p[3]</value>
-      <webElementGuid>7c8d2e03-bd9f-4c5e-b79a-ca64eddd79b1</webElementGuid>
+      <webElementGuid>a0d60b9b-5803-4b9b-8949-684b7ede8652</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='How does legitimate interest work?'])[1]/following::p[3]</value>
-      <webElementGuid>93609ef4-39c9-4fe5-b249-ad03caff7ed6</webElementGuid>
+      <webElementGuid>71fe956b-043b-4728-95df-c9e625353ad0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage your data'])[1]/preceding::p[3]</value>
-      <webElementGuid>82649f5b-f000-4e49-8ff7-1e226c29957f</webElementGuid>
+      <webElementGuid>b59d3516-f82c-47a6-a59b-49fc15917d77</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Store and/or access information on a device'])[2]/preceding::p[5]</value>
-      <webElementGuid>f102fe81-4e07-474b-b5e1-332cc3c3d372</webElementGuid>
+      <webElementGuid>007be27b-cc85-400b-9d04-5f02c02aa583</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Consent']/parent::*</value>
-      <webElementGuid>deb2ae33-f659-4049-9eb9-2ac5c721373a</webElementGuid>
+      <webElementGuid>a126a325-c038-411a-875a-5835c448051c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button/p</value>
-      <webElementGuid>f1caa26d-f4f0-4fb9-b9d9-356253a7f2c1</webElementGuid>
+      <webElementGuid>a99108dd-bd63-4959-b406-9f0378103fe9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'Consent' or . = 'Consent')]</value>
-      <webElementGuid>ff7a5e68-5a95-481f-9d1d-7b076c75a4ee</webElementGuid>
+      <webElementGuid>9e3fcfc4-0aca-4dd1-9aff-98dd62c9449d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
