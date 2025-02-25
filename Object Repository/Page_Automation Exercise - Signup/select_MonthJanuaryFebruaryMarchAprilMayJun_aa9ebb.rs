@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>375055dc-0058-4ff6-aa8e-94067cdf66e1</webElementGuid>
+      <webElementGuid>49a0d198-9dc6-4528-9776-19533e915fd9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>data-qa</name>
       <type>Main</type>
       <value>months</value>
-      <webElementGuid>95c43d26-ad4c-4a34-841b-f440c9f61838</webElementGuid>
+      <webElementGuid>22c6bb45-226f-4f34-9e9d-e0f60e51d316</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>id</name>
       <type>Main</type>
       <value>months</value>
-      <webElementGuid>66da204e-312a-4666-b171-b93076be5f74</webElementGuid>
+      <webElementGuid>d6afc7df-b5cb-4ba6-86da-30487d445481</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>name</name>
       <type>Main</type>
       <value>months</value>
-      <webElementGuid>0d6f97ee-fc19-499c-8b39-b52283b4fa43</webElementGuid>
+      <webElementGuid>1515d311-e75a-472b-b2c3-1acad03484c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>ffa16b21-d210-4221-9722-e429bb2dce5b</webElementGuid>
+      <webElementGuid>308589f6-0623-43dc-963d-cf0c33b94cdb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -83,7 +83,7 @@
 												November
 												December
 										</value>
-      <webElementGuid>03a4a851-fadd-4811-9ad5-07f240caf192</webElementGuid>
+      <webElementGuid>46ddc8af-1a36-4bfc-acb1-300d3420ccbb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;months&quot;)</value>
-      <webElementGuid>3e8ce726-a445-4474-a953-d10a5e33dcca</webElementGuid>
+      <webElementGuid>b98136ed-c278-48ae-af25-e1c8c4aa1920</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -99,7 +99,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='months']</value>
-      <webElementGuid>946b1e1c-0a87-43f3-b348-f33e05527225</webElementGuid>
+      <webElementGuid>1f43e60c-6671-468e-b610-21d62bd0de23</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,7 +107,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='uniform-months']/select</value>
-      <webElementGuid>d763bb8d-66cd-452b-9f9b-b31a35912a97</webElementGuid>
+      <webElementGuid>e874192a-17aa-4561-bc4c-e8b66c3de90e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,7 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Date of Birth'])[1]/following::select[2]</value>
-      <webElementGuid>fabbe250-ec0c-4d51-a68c-b154d0f831a7</webElementGuid>
+      <webElementGuid>05a435d3-2d08-48c2-84d0-6bae713f90d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,7 +123,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/following::select[2]</value>
-      <webElementGuid>c436a032-9c66-4761-a490-266ddae5f124</webElementGuid>
+      <webElementGuid>0fea4e04-c349-4a81-9d73-88dab2f05216</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -131,7 +131,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign up for our newsletter!'])[1]/preceding::select[2]</value>
-      <webElementGuid>3f2cc151-d2e4-4cbd-8621-2d0e27dc07e4</webElementGuid>
+      <webElementGuid>fb61f0dc-e560-476c-9c61-7a4d426b0ebf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -139,7 +139,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Receive special offers from our partners!'])[1]/preceding::select[2]</value>
-      <webElementGuid>2efb0574-6b73-45db-a36f-ad6171815613</webElementGuid>
+      <webElementGuid>747ef170-1719-488e-8726-304c3fd964c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -147,7 +147,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/select</value>
-      <webElementGuid>fe3d151e-ea5e-4f67-a311-20fe7f336f83</webElementGuid>
+      <webElementGuid>19cfd299-efd0-4da1-b1ea-e93659d2f11f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -183,6 +183,6 @@
 												November
 												December
 										')]</value>
-      <webElementGuid>0e46261f-3f56-4aaf-9833-888307c4ccdf</webElementGuid>
+      <webElementGuid>0519c697-1224-4bd0-af37-f6e57ea970f6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

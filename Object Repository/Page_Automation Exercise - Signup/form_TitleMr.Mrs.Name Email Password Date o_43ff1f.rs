@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Year20212020201920182017201620152014_f874ed</name>
+   <name>form_TitleMr.Mrs.Name Email Password Date o_43ff1f</name>
    <tag></tag>
-   <elementGuidId>28e500d7-ef95-4bd8-a362-b549bed275a3</elementGuidId>
+   <elementGuidId>62ae5742-8471-4783-bb59-e5df97a61bec</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//select[@id='years']</value>
+         <value>//form[@action='/signup']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#years</value>
+         <value>form</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>#years</value>
+         <value>internal:text=&quot;Title Mr. Mrs. Name * Email * Password * Date of Birth Day 1 2 3 4 5 6 7 8 9 10 &quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,40 +28,24 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>select</value>
-      <webElementGuid>30d7186a-83a9-4462-a6be-086f92945896</webElementGuid>
+      <value>form</value>
+      <webElementGuid>b09744dc-2f39-472f-b7bb-7a621e2c2916</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-qa</name>
+      <name>action</name>
       <type>Main</type>
-      <value>years</value>
-      <webElementGuid>65d95b13-d340-447b-bf67-b5d8f786a8a1</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>years</value>
-      <webElementGuid>7a5dd832-c0fd-41a6-adb2-353f9c50945b</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>years</value>
-      <webElementGuid>8593bbe5-db68-4cd2-8e90-5ad7f2bb3491</webElementGuid>
+      <value>/signup</value>
+      <webElementGuid>45ccafe9-d5c0-4038-86f0-06040ae3f1da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>method</name>
       <type>Main</type>
-      <value>form-control</value>
-      <webElementGuid>e3b2cf50-ac63-4c6f-82e3-c25abfffe0e9</webElementGuid>
+      <value>POST</value>
+      <webElementGuid>10026d43-ef30-4a66-b69f-3656cb5e9458</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,6 +53,103 @@
       <name>text</name>
       <type>Main</type>
       <value>
+							
+							
+								Title
+								
+								
+									
+										
+										Mr.
+									
+								
+								
+									
+										
+										Mrs.
+									
+								
+							
+
+							
+								Name *
+								
+							
+
+							
+								Email *
+								
+								
+							
+
+							
+								Password *
+								
+							
+
+							
+								Date of Birth
+								
+									
+										
+											
+												Day
+												1
+												2
+												3
+												4
+												5
+												6
+												7
+												8
+												9
+												10
+												11
+												12
+												13
+												14
+												15
+												16
+												17
+												18
+												19
+												20
+												21
+												22
+												23
+												24
+												25
+												26
+												27
+												28
+												29
+												30
+												31
+											
+										
+									
+									
+										
+											
+												Month
+												January
+												February
+												March
+												April
+												May
+												June
+												July
+												August
+												September
+												October
+												November
+												December
+										
+									
+								
+								
+									
+										
 											Year
 											2021
 											2020
@@ -192,79 +273,238 @@
 											1902
 											1901
 											1900
-										</value>
-      <webElementGuid>af628d32-4b5d-429c-9510-07c1b3a307c1</webElementGuid>
+										
+									
+								
+							
+						
+
+							
+								
+								Sign up for our newsletter!
+							
+							
+								
+								Receive special offers from our partners!
+							
+
+
+							
+						Address Information
+
+						
+							First name *
+							
+						
+
+						
+							Last name *
+							
+						
+
+						
+							Company
+							
+						
+
+						
+							Address * (Street address, P.O. Box, Company name, etc.)
+							
+						
+
+						
+							Address 2
+							
+						
+
+						
+							Country * 
+							
+								India
+								United States
+								Canada
+								Australia
+								Israel
+								New Zealand
+								Singapore
+							
+						
+
+						
+							State * 
+							
+						
+
+						
+							City * 
+							
+						
+
+						
+							Zipcode * 
+							
+						
+
+						
+							Mobile Number * 
+							
+						
+						
+						Create Account
+						</value>
+      <webElementGuid>54a2234c-c9d0-4a37-aa95-ca444e67788c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;years&quot;)</value>
-      <webElementGuid>6d46c200-3f23-4950-ae0d-42b4748fce75</webElementGuid>
+      <value>id(&quot;form&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-4 col-sm-offset-1&quot;]/div[@class=&quot;login-form&quot;]/form[1]</value>
+      <webElementGuid>6f6192a6-268f-4dec-b6af-68bd2282ef46</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@id='years']</value>
-      <webElementGuid>6afb49c6-d83c-45d9-bd4c-5d71e3dc986e</webElementGuid>
+      <value>//form[@action='/signup']</value>
+      <webElementGuid>a0b78729-aafa-4060-b4a6-19f633ac0750</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='uniform-years']/select</value>
-      <webElementGuid>ee97d33d-4629-444b-8b5c-bd613f3d23d2</webElementGuid>
+      <value>//section[@id='form']/div/div/div/div/form</value>
+      <webElementGuid>c40b5974-478e-4d33-b8b7-3c2f4036b64c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Date of Birth'])[1]/following::select[3]</value>
-      <webElementGuid>4dc7cd31-046e-4500-9425-6f882d8a60a2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter Account Information'])[1]/following::form[1]</value>
+      <webElementGuid>e3b18528-1f9e-4371-a6b4-779c6bf6bc3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/following::select[3]</value>
-      <webElementGuid>46c54eff-6488-482a-8736-7263e0ae00d8</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign up for our newsletter!'])[1]/preceding::select[1]</value>
-      <webElementGuid>1ce3bacd-08ee-403e-acde-b2f88c4c9f5c</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Receive special offers from our partners!'])[1]/preceding::select[1]</value>
-      <webElementGuid>3d9bcb45-5b57-4249-8c96-64dc9b4fe726</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::form[1]</value>
+      <webElementGuid>788692ad-ceec-4a8a-8171-48d2f4f5566d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/select</value>
-      <webElementGuid>93e45a0b-1a04-4d0a-85bc-8f806eba870b</webElementGuid>
+      <value>//form</value>
+      <webElementGuid>5fd28239-1519-40d5-a776-c761cdd3a74c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//select[@id = 'years' and @name = 'years' and (text() = '
+      <value>//form[(text() = '
+							
+							
+								Title
+								
+								
+									
+										
+										Mr.
+									
+								
+								
+									
+										
+										Mrs.
+									
+								
+							
+
+							
+								Name *
+								
+							
+
+							
+								Email *
+								
+								
+							
+
+							
+								Password *
+								
+							
+
+							
+								Date of Birth
+								
+									
+										
+											
+												Day
+												1
+												2
+												3
+												4
+												5
+												6
+												7
+												8
+												9
+												10
+												11
+												12
+												13
+												14
+												15
+												16
+												17
+												18
+												19
+												20
+												21
+												22
+												23
+												24
+												25
+												26
+												27
+												28
+												29
+												30
+												31
+											
+										
+									
+									
+										
+											
+												Month
+												January
+												February
+												March
+												April
+												May
+												June
+												July
+												August
+												September
+												October
+												November
+												December
+										
+									
+								
+								
+									
+										
 											Year
 											2021
 											2020
@@ -388,7 +628,182 @@
 											1902
 											1901
 											1900
-										' or . = '
+										
+									
+								
+							
+						
+
+							
+								
+								Sign up for our newsletter!
+							
+							
+								
+								Receive special offers from our partners!
+							
+
+
+							
+						Address Information
+
+						
+							First name *
+							
+						
+
+						
+							Last name *
+							
+						
+
+						
+							Company
+							
+						
+
+						
+							Address * (Street address, P.O. Box, Company name, etc.)
+							
+						
+
+						
+							Address 2
+							
+						
+
+						
+							Country * 
+							
+								India
+								United States
+								Canada
+								Australia
+								Israel
+								New Zealand
+								Singapore
+							
+						
+
+						
+							State * 
+							
+						
+
+						
+							City * 
+							
+						
+
+						
+							Zipcode * 
+							
+						
+
+						
+							Mobile Number * 
+							
+						
+						
+						Create Account
+						' or . = '
+							
+							
+								Title
+								
+								
+									
+										
+										Mr.
+									
+								
+								
+									
+										
+										Mrs.
+									
+								
+							
+
+							
+								Name *
+								
+							
+
+							
+								Email *
+								
+								
+							
+
+							
+								Password *
+								
+							
+
+							
+								Date of Birth
+								
+									
+										
+											
+												Day
+												1
+												2
+												3
+												4
+												5
+												6
+												7
+												8
+												9
+												10
+												11
+												12
+												13
+												14
+												15
+												16
+												17
+												18
+												19
+												20
+												21
+												22
+												23
+												24
+												25
+												26
+												27
+												28
+												29
+												30
+												31
+											
+										
+									
+									
+										
+											
+												Month
+												January
+												February
+												March
+												April
+												May
+												June
+												July
+												August
+												September
+												October
+												November
+												December
+										
+									
+								
+								
+									
+										
 											Year
 											2021
 											2020
@@ -512,7 +927,85 @@
 											1902
 											1901
 											1900
-										')]</value>
-      <webElementGuid>634f2d48-60bd-4dd2-9696-91bf75fff219</webElementGuid>
+										
+									
+								
+							
+						
+
+							
+								
+								Sign up for our newsletter!
+							
+							
+								
+								Receive special offers from our partners!
+							
+
+
+							
+						Address Information
+
+						
+							First name *
+							
+						
+
+						
+							Last name *
+							
+						
+
+						
+							Company
+							
+						
+
+						
+							Address * (Street address, P.O. Box, Company name, etc.)
+							
+						
+
+						
+							Address 2
+							
+						
+
+						
+							Country * 
+							
+								India
+								United States
+								Canada
+								Australia
+								Israel
+								New Zealand
+								Singapore
+							
+						
+
+						
+							State * 
+							
+						
+
+						
+							City * 
+							
+						
+
+						
+							Zipcode * 
+							
+						
+
+						
+							Mobile Number * 
+							
+						
+						
+						Create Account
+						')]</value>
+      <webElementGuid>1525cb34-0152-49c5-b949-373ee7020715</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
