@@ -45,7 +45,7 @@ if (isAlertPresent) {
 	WebUI.verifyMatch(alertText, 'Success! Your details have been submitted successfully.', false, FailureHandling.STOP_ON_FAILURE)
 	WebUI.acceptAlert()
 } else {
-	WebUI.comment('❌ No alert appeared, checking for on-screen success message...')
+	WebUI.comment(' No alert appeared, checking for on-screen success message...')
 }
 
 WebUI.closeBrowser()

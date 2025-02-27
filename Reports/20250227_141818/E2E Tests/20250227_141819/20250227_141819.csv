@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+E2E Tests,Chrome 133.0.6943.141,,,27-02-2025 14:18:21,27-02-2025 14:18:38,17.407s,PASSED
+,,,,,,,
+Test Cases/productsTest,Chrome 133.0.6943.141,,,27-02-2025 14:18:21,27-02-2025 14:18:38,17.318s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 133.0.6943.141,,,27-02-2025 14:18:21,27-02-2025 14:18:25,4.273s,PASSED
+"openBrowser("""")",Chrome 133.0.6943.141,,,27-02-2025 14:18:25,27-02-2025 14:18:26,0.733s,PASSED
+maximizeWindow(),Chrome 133.0.6943.141,,,27-02-2025 14:18:26,27-02-2025 14:18:26,0.373s,PASSED
+"openBrowser("""")",Chrome 133.0.6943.141,,,27-02-2025 14:18:26,27-02-2025 14:18:27,0.691s,PASSED
+navigateToUrl(siteURL),Chrome 133.0.6943.141,,,27-02-2025 14:18:27,27-02-2025 14:18:31,3.501s,PASSED
+"comment(""opened page: "" + siteURL)",Chrome 133.0.6943.141,,,27-02-2025 14:18:31,27-02-2025 14:18:31,0.007s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_Automation Exercise/p_Consent""), 10)",Chrome 133.0.6943.141,,,27-02-2025 14:18:31,27-02-2025 14:18:31,0.313s,PASSED
+"click(findTestObject(""Object Repository/Page_Automation Exercise/p_Consent""))",Chrome 133.0.6943.141,,,27-02-2025 14:18:31,27-02-2025 14:18:31,0.295s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_Automation Exercise/a_Products""), 10)",Chrome 133.0.6943.141,,,27-02-2025 14:18:31,27-02-2025 14:18:32,1.258s,PASSED
+"click(findTestObject(""Object Repository/Page_Automation Exercise/a_Products""))",Chrome 133.0.6943.141,,,27-02-2025 14:18:32,27-02-2025 14:18:34,1.546s,PASSED
+"scrollToElement(findTestObject(""Page_Automation Exercise - HM Products/a_View Product""), 10)",Chrome 133.0.6943.141,,,27-02-2025 14:18:34,27-02-2025 14:18:35,0.626s,PASSED
+"click(findTestObject(""Object Repository/Page_Automation Exercise - HM Products/a_View Product""))",Chrome 133.0.6943.141,,,27-02-2025 14:18:35,27-02-2025 14:18:36,1.397s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_Automation Exercise - Product Details/input_Quantity_quantity""), 10)",Chrome 133.0.6943.141,,,27-02-2025 14:18:36,27-02-2025 14:18:37,0.659s,PASSED
+"setText(findTestObject(""Object Repository/Page_Automation Exercise - Product Details/input_Quantity_quantity""), ""2"")",Chrome 133.0.6943.141,,,27-02-2025 14:18:37,27-02-2025 14:18:37,0.537s,PASSED
+"click(findTestObject(""Object Repository/Page_Automation Exercise - Product Details/button_Add to cart""))",Chrome 133.0.6943.141,,,27-02-2025 14:18:37,27-02-2025 14:18:37,0.256s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_Automation Exercise - Product Details/button_Continue Shopping""), 10)",Chrome 133.0.6943.141,,,27-02-2025 14:18:37,27-02-2025 14:18:38,0.432s,PASSED
+"click(findTestObject(""Object Repository/Page_Automation Exercise - Product Details/button_Continue Shopping""))",Chrome 133.0.6943.141,,,27-02-2025 14:18:38,27-02-2025 14:18:38,0.253s,PASSED
+"comment(""✅ Test Passed!"")",Chrome 133.0.6943.141,,,27-02-2025 14:18:38,27-02-2025 14:18:38,0.002s,PASSED
+closeBrowser(),Chrome 133.0.6943.141,,,27-02-2025 14:18:38,27-02-2025 14:18:38,0.109s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 133.0.6943.141,,,27-02-2025 14:18:38,27-02-2025 14:18:38,0.002s,PASSED
