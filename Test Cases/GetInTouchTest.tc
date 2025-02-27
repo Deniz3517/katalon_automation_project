@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>newtest</name>
+   <name>GetInTouchTest</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>20d97356-e911-4bf9-b713-1899f5e1088d</testCaseGuid>
+   <testCaseGuid>53b111e7-6c25-4bdf-9512-3f510a3f5376</testCaseGuid>
 </TestCaseEntity>
