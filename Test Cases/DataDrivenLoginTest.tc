@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DataDrivenLoginTest</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c31475e2-135e-4884-aeb2-aabff22ff6c5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2f6c6e31-ee80-4ade-8cef-89c2ac05ec7e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>de1fa766-a3d7-4d6e-b909-3be68100a83d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'deniz'</defaultValue>
+      <description></description>
+      <id>2f6c6e31-ee80-4ade-8cef-89c2ac05ec7e</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'123'</defaultValue>
+      <description></description>
+      <id>de1fa766-a3d7-4d6e-b909-3be68100a83d</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

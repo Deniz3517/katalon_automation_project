@@ -37,10 +37,6 @@ import com.kms.katalon.core.util.KeywordUtil
 
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
-
-
-import com.kms.katalon.core.annotation.Keyword
-
 class TextUtils {
 	
 	@Keyword
