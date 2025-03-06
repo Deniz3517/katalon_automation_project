@@ -3,64 +3,68 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
-import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
-import com.kms.katalon.core.testcase.TestCase as TestCase
-import com.kms.katalon.core.testcase.TestCaseFactory as TestCaseFactory
-import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
-import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
-import com.kms.katalon.core.testobject.TestObject as TestObject
-
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.checkpoint.Checkpoint
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.testcase.TestCase
+import com.kms.katalon.core.testdata.TestData
+import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-
-import internal.GlobalVariable as GlobalVariable
+import internal.GlobalVariable
 
 import com.kms.katalon.core.annotation.SetUp
 import com.kms.katalon.core.annotation.SetupTestCase
 import com.kms.katalon.core.annotation.TearDown
 import com.kms.katalon.core.annotation.TearDownTestCase
+import com.kms.katalon.core.webui.driver.DriverFactory
 
 /**
- * Some methods below are samples for using SetUp/TearDown in a test suite.
+ * Setup test suite environment - Open browser and navigate to the site
  */
-
-/**
- * Setup test suite environment.
- */
-@SetUp(skipped = true) // Please change skipped to be false to activate this method.
+@SetUp(skipped = false) // Set skipped = false to activate this method
 def setUp() {
-	// Put your code here.
+	WebUI.comment("===== TEST STARTING: Opening Browser =====")
+	
+	WebUI.openBrowser('')
+	WebUI.maximizeWindow()
+	
+	// Navigate to the site URL from Global Variable
+	WebUI.navigateToUrl(GlobalVariable.siteURL)
+	
+	WebUI.comment("===== Navigated to: " + GlobalVariable.siteURL + " =====")
 }
 
 /**
- * Clean test suites environment.
+ * Clean up test suite environment - Close the browser after the test suite completes
  */
-@TearDown(skipped = true) // Please change skipped to be false to activate this method.
+@TearDown(skipped = false)
 def tearDown() {
-	// Put your code here.
+	WebUI.comment("===== TEST COMPLETED: Closing Browser =====")
+	
+	// Close the browser if it is still open
+	if (DriverFactory.getWebDriver() != null) {
+		WebUI.closeBrowser()
+	}
 }
 
 /**
- * Run before each test case starts.
+ * Run before each test case starts - Setup for each test case
  */
-@SetupTestCase(skipped = true) // Please change skipped to be false to activate this method.
+@SetupTestCase(skipped = false)
 def setupTestCase() {
-	// Put your code here.
+	WebUI.comment("===== Starting New Test Case =====")
 }
 
 /**
- * Run after each test case ends.
+ * Run after each test case ends - Actions after each test case
  */
-@TearDownTestCase(skipped = true) // Please change skipped to be false to activate this method.
+@TearDownTestCase(skipped = false)
 def tearDownTestCase() {
-	// Put your code here.
+	// If the test fails, take a screenshot and stop the test
+	if (WebUI.getLastCheckpointStatus() == FailureHandling.STOP_ON_FAILURE) {
+		WebUI.comment("️ Test Failed! Taking Screenshot...")
+		WebUI.takeScreenshot()
+		throw new AssertionError("Test Case Failed, Stopping Execution!")
+	}
+	
+	WebUI.comment("===== Test Case Completed =====")
 }
-
-/**
- * References:
- * Groovy tutorial page: http://docs.groovy-lang.org/next/html/documentation/
- */
