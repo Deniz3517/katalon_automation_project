@@ -29,4 +29,4 @@ assert jsonResponseObject.booking.bookingdates.checkout == "2019-01-01"
 assert jsonResponseObject.booking.additionalneeds == "Breakfast"
 
 
-println('✅ Booking başarıyla oluşturuldu! ID: ' + jsonResponseObject.bookingid)
+println('✅ Booking successful: ' + jsonResponseObject.bookingid)
