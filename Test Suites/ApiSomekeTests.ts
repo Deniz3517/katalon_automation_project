@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>E2E Tests</name>
+   <name>ApiSomekeTests</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,19 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>3ed27ac3-378e-4b4a-affa-4c475f492329</testSuiteGuid>
+   <testSuiteGuid>d0f1162b-c233-4256-b0a0-0c3ec1558499</testSuiteGuid>
    <testCaseLink>
-      <guid>e665aa23-2cda-448e-8e37-e5475f1c76eb</guid>
+      <guid>1ed477b6-1ec5-42a6-8c10-05f480ef2531</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/productsTest</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>97a82a54-3120-4a49-9b63-95f1ffb63290</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/GetInTouchTest</testCaseId>
+      <testCaseId>Test Cases/SmokeApiTests/GetProducts</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

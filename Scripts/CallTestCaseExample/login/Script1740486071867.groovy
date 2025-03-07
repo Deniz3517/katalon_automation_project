@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('Page_Automation Exercise/p_Consent'))
+
 WebUI.click(findTestObject('Object Repository/CallTestCaseLogin/Page_Automation Exercise/a_Signup  Login'))
 
 WebUI.setText(findTestObject('Object Repository/CallTestCaseLogin/Page_Automation Exercise - Signup  Login/input_Login to your account_email'), 
