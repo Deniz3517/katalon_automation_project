@@ -4,7 +4,7 @@ import groovy.json.JsonSlurper
 import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
 
 
-def response = WS.sendRequestAndVerify(ObjectRepository.findTestObject('Object Repository/RestReqServices/BookingList'))
+def response = WS.sendRequestAndVerify(ObjectRepository.findTestObject('null'))
 
 WS.verifyResponseStatusCode(response, 200)
 

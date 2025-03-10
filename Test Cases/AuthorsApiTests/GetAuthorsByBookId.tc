@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GetAuthorsByBookId</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9921f832-497c-4a50-8d58-f09402e9fa9e</testCaseGuid>
+</TestCaseEntity>
