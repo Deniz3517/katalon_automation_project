@@ -17,21 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/Page_Automation Exercise/p_Consent'))
 
-WebUI.click(findTestObject('Object Repository/Page_Automation Exercise/a_Products'))
+WebUI.click(findTestObject('Object Repository/Page_Automation Exercise/p_Consent'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_Automation Exercise - All Products/input_Contact us_search'), 'blue top')
 
-WebUI.click(findTestObject('Object Repository/Page_Automation Exercise - All Products/i_Contact us_fa fa-search'))
+WebUI.click(findTestObject('Object Repository/Page_Automation Exercise/a_Products'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToPosition(0, 800)
 
-WebUI.click(findTestObject('Object Repository/Page_Automation Exercise - All Products/a_View Product'))
+WebUI.setText(findTestObject('Object Repository/Page_Automation Exercise - All Products/input_Contact us_search'), 'blue top', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Automation Exercise - Product Details/h2_Blue Top'), 'Wrong Product Name')
 
-WebUI.click(findTestObject('Object Repository/Page_Automation Exercise - Product Details/h2_Blue Top'))
+WebUI.click(findTestObject('Object Repository/Page_Automation Exercise - All Products/i_Contact us_fa fa-search'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Automation Exercise - Product Details/h2_Blue Top'), 'Blue Top')
 
+WebUI.scrollToPosition(0, 800, FailureHandling.STOP_ON_FAILURE)
+
+
+WebUI.click(findTestObject('Object Repository/Page_Automation Exercise - All Products/a_View Product'), FailureHandling.STOP_ON_FAILURE)
+
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Automation Exercise - Product Details/h2_Blue Top'), 'Wrong Product Name', FailureHandling.STOP_ON_FAILURE)
+
+
+WebUI.click(findTestObject('Object Repository/Page_Automation Exercise - Product Details/h2_Blue Top'), FailureHandling.STOP_ON_FAILURE)
+
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Automation Exercise - Product Details/h2_Blue Top'), 'Blue Top', FailureHandling.STOP_ON_FAILURE)
