@@ -1,0 +1,70 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AuthorsApiTests,,,,10-03-2025 12:38:32,10-03-2025 12:38:34,1.507s,PASSED
+,,,,,,,
+Test Cases/AuthorsApiTests/PostAuthors,,,,10-03-2025 12:38:32,10-03-2025 12:38:33,0.945s,PASSED
+Start listener action : sampleBeforeTestCase,,,,10-03-2025 12:38:32,10-03-2025 12:38:32,0.094s,ERROR
+"response = sendRequest(findTestObject(""AuthorsApi/PostAuthors""))",,,,10-03-2025 12:38:32,10-03-2025 12:38:33,0.743s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.008s,PASSED
+"verifyElementPropertyValue(response, ""id"", 1)",,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.025s,PASSED
+"verifyElementPropertyValue(response, ""idBook"", 1)",,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.009s,PASSED
+"verifyElementPropertyValue(response, ""firstName"", ""string"")",,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.011s,PASSED
+"verifyElementPropertyValue(response, ""lastName"", ""string"")",,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.015s,PASSED
+assert response.getResponseText() != null,,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.006s,PASSED
+,,,,,,,
+Test Cases/AuthorsApiTests/PutAuthorsId,,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.097s,PASSED
+Start listener action : sampleBeforeTestCase,,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.005s,ERROR
+"request = findTestObject(""AuthorsApi/PutAuthorsId"")",,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.003s,PASSED
+idAuthors = 1,,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.000s,PASSED
+"request.setRestUrl(""https://fakerestapi.azurewebsites.net/api/v1/Authors/"" + idAuthors)",,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.007s,PASSED
+response = sendRequest(request),,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.047s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.002s,PASSED
+jsonResponse = JsonSlurper().parseText(response.getResponseText()),,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.002s,PASSED
+assert id == 0,,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.001s,PASSED
+assert idBook == 0,,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.000s,PASSED
+"assert firstName == ""string""",,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.000s,PASSED
+"assert lastName == ""string""",,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.001s,PASSED
+Start listener action : sampleAfterTestCase,,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.003s,PASSED
+,,,,,,,
+Test Cases/AuthorsApiTests/GetAuthorsId,,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.088s,PASSED
+Start listener action : sampleBeforeTestCase,,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.006s,ERROR
+idAuthors = 1,,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.000s,PASSED
+"request = findTestObject(""AuthorsApi/GetAuthorsByBook"")",,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.002s,PASSED
+"request.setRestUrl(""https://fakerestapi.azurewebsites.net/api/v1/Authors/"" + idAuthors)",,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.001s,PASSED
+response = sendRequest(request),,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.043s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.001s,PASSED
+jsonResponse = JsonSlurper().parseText(response.getResponseText()),,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.000s,PASSED
+assert jsonResponse != null,,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.000s,PASSED
+"verifyElementPropertyValue(response, ""id"", idAuthors)",,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.009s,PASSED
+Start listener action : sampleAfterTestCase,,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.003s,PASSED
+,,,,,,,
+Test Cases/AuthorsApiTests/DeleteAuthorsId,,,,10-03-2025 12:38:33,10-03-2025 12:38:34,0.069s,PASSED
+Start listener action : sampleBeforeTestCase,,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.005s,ERROR
+"request = findTestObject(""AuthorsApi/DeleteAuthorsId"")",,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.003s,PASSED
+idAuthors = 1,,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.000s,PASSED
+"request.setRestUrl(""https://fakerestapi.azurewebsites.net/api/v1/Authors/"" + idAuthors)",,,,10-03-2025 12:38:33,10-03-2025 12:38:33,0.001s,PASSED
+response = sendRequest(request),,,,10-03-2025 12:38:33,10-03-2025 12:38:34,0.038s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,10-03-2025 12:38:34,10-03-2025 12:38:34,0.001s,PASSED
+"assert response.getResponseText() == """"",,,,10-03-2025 12:38:34,10-03-2025 12:38:34,0.000s,PASSED
+Start listener action : sampleAfterTestCase,,,,10-03-2025 12:38:34,10-03-2025 12:38:34,0.003s,PASSED
+,,,,,,,
+Test Cases/AuthorsApiTests/GetAuthors,,,,10-03-2025 12:38:34,10-03-2025 12:38:34,0.131s,PASSED
+Start listener action : sampleBeforeTestCase,,,,10-03-2025 12:38:34,10-03-2025 12:38:34,0.004s,ERROR
+"response = sendRequest(findTestObject(""AuthorsApi/GetAuthors""))",,,,10-03-2025 12:38:34,10-03-2025 12:38:34,0.080s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,10-03-2025 12:38:34,10-03-2025 12:38:34,0.002s,PASSED
+"verifyElementPropertyValue(response, ""[0].id"", 1)",,,,10-03-2025 12:38:34,10-03-2025 12:38:34,0.016s,PASSED
+"verifyElementPropertyValue(response, ""[0].firstName"", ""First Name 1"")",,,,10-03-2025 12:38:34,10-03-2025 12:38:34,0.014s,PASSED
+assert response.getResponseText() != null,,,,10-03-2025 12:38:34,10-03-2025 12:38:34,0.000s,PASSED
+Start listener action : sampleAfterTestCase,,,,10-03-2025 12:38:34,10-03-2025 12:38:34,0.003s,PASSED
+,,,,,,,
+Test Cases/AuthorsApiTests/GetAuthorsByBookId,,,,10-03-2025 12:38:34,10-03-2025 12:38:34,0.084s,PASSED
+Start listener action : sampleBeforeTestCase,,,,10-03-2025 12:38:34,10-03-2025 12:38:34,0.004s,ERROR
+idBook = 1,,,,10-03-2025 12:38:34,10-03-2025 12:38:34,0.000s,PASSED
+"request = findTestObject(""AuthorsApi/GetAuthorsByBook"")",,,,10-03-2025 12:38:34,10-03-2025 12:38:34,0.002s,PASSED
+"request.setRestUrl(""https://fakerestapi.azurewebsites.net/api/v1/Authors/authors/books/"" + idBook)",,,,10-03-2025 12:38:34,10-03-2025 12:38:34,0.001s,PASSED
+response = sendRequest(request),,,,10-03-2025 12:38:34,10-03-2025 12:38:34,0.046s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,10-03-2025 12:38:34,10-03-2025 12:38:34,0.001s,PASSED
+jsonResponse = JsonSlurper().parseText(response.getResponseText()),,,,10-03-2025 12:38:34,10-03-2025 12:38:34,0.000s,PASSED
+assert jsonResponse.size() > 0,,,,10-03-2025 12:38:34,10-03-2025 12:38:34,0.001s,PASSED
+"verifyElementPropertyValue(response, ""[0].idBook"", idBook)",,,,10-03-2025 12:38:34,10-03-2025 12:38:34,0.008s,PASSED
+Start listener action : sampleAfterTestCase,,,,10-03-2025 12:38:34,10-03-2025 12:38:34,0.003s,PASSED
