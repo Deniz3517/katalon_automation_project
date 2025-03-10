@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Products</name>
+   <name>h2_Blue Top</name>
    <tag></tag>
-   <elementGuidId>9e7d190a-e8c7-4bd9-8db0-12af44059f42</elementGuidId>
+   <elementGuidId>44e95704-8819-40ea-b87e-13a7af7f68cd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//header[@id='header']/div/div/div/div[2]/div/ul/li[2]/a</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue Shopping'])[1]/following::h2[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>li:nth-of-type(2) > a</value>
+         <value>div.product-information > h2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot; Products&quot;i]</value>
+         <value>internal:role=heading[name=&quot;Blue Top&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,87 +28,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>c6225d8a-742b-4166-99f8-3ac7e82e9336</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>/products</value>
-      <webElementGuid>42abba96-be28-4ca0-8e93-af25548587bd</webElementGuid>
+      <value>h2</value>
+      <webElementGuid>82f1ffa4-5b4d-4ae2-a497-6608e6c25dd8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Products</value>
-      <webElementGuid>1356aa2e-d9e2-4b5b-b32c-7bf71a87ea6f</webElementGuid>
+      <value>Blue Top</value>
+      <webElementGuid>18729139-e70e-42d0-b6c5-6ae7945ced0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;header&quot;)/div[@class=&quot;header-middle&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-8&quot;]/div[@class=&quot;shop-menu pull-right&quot;]/ul[@class=&quot;nav navbar-nav&quot;]/li[2]/a[1]</value>
-      <webElementGuid>4e74e8f4-7ca6-4cb3-a015-e1f0276c1ac6</webElementGuid>
+      <value>/html[1]/body[1]/section[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-9 padding-right&quot;]/div[@class=&quot;product-details&quot;]/div[@class=&quot;col-sm-7&quot;]/div[@class=&quot;product-information&quot;]/h2[1]</value>
+      <webElementGuid>8f8e93f1-6895-4172-918a-255681e7ff67</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//header[@id='header']/div/div/div/div[2]/div/ul/li[2]/a</value>
-      <webElementGuid>71fc7fcf-843b-4a0a-929d-73e636e1af28</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue Shopping'])[1]/following::h2[1]</value>
+      <webElementGuid>c9c01a81-533e-4e27-b0c4-a8a152dd080c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1]</value>
-      <webElementGuid>1a34b1a5-b2e7-4a65-91bc-6e32efb5b3df</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Cart'])[1]/following::h2[1]</value>
+      <webElementGuid>d3d5e996-9fa3-40dc-84fa-e2691af05ba0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/preceding::a[1]</value>
-      <webElementGuid>b271df0d-e761-49c4-852f-b8bade50e446</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rs. 500'])[1]/preceding::h2[1]</value>
+      <webElementGuid>c6e1f267-7530-4d41-a3c4-efa3fa47ec9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Products']/parent::*</value>
-      <webElementGuid>271554bc-3a5a-4b22-886f-0ab7e4b0e43d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quantity:'])[1]/preceding::h2[1]</value>
+      <webElementGuid>8404240d-8424-48d4-b5c4-edc7702031a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/products')]</value>
-      <webElementGuid>24325d1a-2965-41a1-89b8-e560f3e99b24</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Blue Top']/parent::*</value>
+      <webElementGuid>14144c39-aaba-4c72-847a-fbea7800bb12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[2]/a</value>
-      <webElementGuid>a6792ce0-d4cb-4dd9-b92c-c6c4ef89dfd9</webElementGuid>
+      <value>//div[2]/div/h2</value>
+      <webElementGuid>67156b48-5b8f-4cb1-bc5e-b57c840e574f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/products' and (text() = ' Products' or . = ' Products')]</value>
-      <webElementGuid>e206a3a5-e896-4bac-ad82-6c7cf43e04b6</webElementGuid>
+      <value>//h2[(text() = 'Blue Top' or . = 'Blue Top')]</value>
+      <webElementGuid>bf23facf-9c28-4529-9b4c-7958fb9beaf2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
