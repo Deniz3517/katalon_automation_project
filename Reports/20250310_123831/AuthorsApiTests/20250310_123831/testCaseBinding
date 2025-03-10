@@ -1,6 +1,0 @@
-{"testCaseName":"Test Cases/AuthorsApiTests/PostAuthors","testCaseId":"Test Cases/AuthorsApiTests/PostAuthors","iterationVariableName":""}
-{"testCaseName":"Test Cases/AuthorsApiTests/PutAuthorsId","testCaseId":"Test Cases/AuthorsApiTests/PutAuthorsId","iterationVariableName":""}
-{"testCaseName":"Test Cases/AuthorsApiTests/GetAuthorsId","testCaseId":"Test Cases/AuthorsApiTests/GetAuthorsId","iterationVariableName":""}
-{"testCaseName":"Test Cases/AuthorsApiTests/DeleteAuthorsId","testCaseId":"Test Cases/AuthorsApiTests/DeleteAuthorsId","iterationVariableName":""}
-{"testCaseName":"Test Cases/AuthorsApiTests/GetAuthors","testCaseId":"Test Cases/AuthorsApiTests/GetAuthors","iterationVariableName":""}
-{"testCaseName":"Test Cases/AuthorsApiTests/GetAuthorsByBookId","testCaseId":"Test Cases/AuthorsApiTests/GetAuthorsByBookId","iterationVariableName":""}
