@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TearsDownTest</name>
+   <name>RegisterTest</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>0b681fa5-9529-4ab5-bd3f-583c8b1901ef</testCaseGuid>
+   <testCaseGuid>9e8b9cab-d808-4833-b692-022950c60204</testCaseGuid>
 </TestCaseEntity>

@@ -15,14 +15,7 @@
       <guid>a479abd2-d6fc-4f24-9fa8-6cfc1c67ce27</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/LoginTest</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>fdd21c38-e74e-4b22-8fcf-f2cb5ca798ca</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/TearsDownTest</testCaseId>
+      <testCaseId>Test Cases/UiTests/LoginTest</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
