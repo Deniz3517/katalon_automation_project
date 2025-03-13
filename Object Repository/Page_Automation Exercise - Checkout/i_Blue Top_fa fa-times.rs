@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_Contact us_fa fa-search</name>
+   <name>i_Blue Top_fa fa-times</name>
    <tag></tag>
-   <elementGuidId>c02ea2d8-fcf1-4ba0-8992-a3d5b7f2cb18</elementGuidId>
+   <elementGuidId>9f09a5f0-53b7-4370-9901-acd1b648c2a6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='submit_search']/i</value>
+         <value>//tr[@id='product-1']/td[6]/a/i</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>i.fa.fa-search</value>
+         <value>i.fa.fa-times</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;&quot;i]</value>
+         <value>internal:role=cell[name=&quot;&quot;i] >> a</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,38 +29,38 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>d17c4378-048e-408e-a50d-d77d264e9a57</webElementGuid>
+      <webElementGuid>5a130c3c-2552-48c8-a6d1-e51d444025b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>fa fa-search</value>
-      <webElementGuid>3272f358-ee22-413c-882b-a8caf7864a87</webElementGuid>
+      <value>fa fa-times</value>
+      <webElementGuid>d4d31748-a9ca-4d6c-b9f0-28a33ce48696</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;submit_search&quot;)/i[@class=&quot;fa fa-search&quot;]</value>
-      <webElementGuid>b96f5b18-9148-42dc-af80-739a8472e490</webElementGuid>
+      <value>id(&quot;product-1&quot;)/td[@class=&quot;cart_delete&quot;]/a[@class=&quot;cart_quantity_delete&quot;]/i[@class=&quot;fa fa-times&quot;]</value>
+      <webElementGuid>69b6c132-a72a-49e4-a3dd-8b38a04377b4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//button[@id='submit_search']/i</value>
-      <webElementGuid>dc0679e7-3077-4096-982a-46796afc4151</webElementGuid>
+      <value>//tr[@id='product-1']/td[6]/a/i</value>
+      <webElementGuid>127ac69d-0951-42bc-8963-e9c12447f8f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button/i</value>
-      <webElementGuid>688b2ee9-7ab3-4154-9470-5894ed4b0669</webElementGuid>
+      <value>//td[6]/a/i</value>
+      <webElementGuid>f2991517-b6ca-4cea-b91c-e04872279adf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
