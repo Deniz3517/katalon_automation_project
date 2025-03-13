@@ -22,24 +22,24 @@
 			<location>/var/folders/rm/wx1n4l593_l9hmm2jp4x04y80000gn/T/Katalon/Web Services/kat-1250210105903449533.groovy</location>
 		</link>
 		<link>
+			<name>kat-14025481658228420573.groovy</name>
+			<type>1</type>
+			<location>/var/folders/rm/wx1n4l593_l9hmm2jp4x04y80000gn/T/Katalon/Web Services/kat-14025481658228420573.groovy</location>
+		</link>
+		<link>
 			<name>kat-3223635973903110057.groovy</name>
 			<type>1</type>
 			<location>/var/folders/rm/wx1n4l593_l9hmm2jp4x04y80000gn/T/Katalon/Web Services/kat-3223635973903110057.groovy</location>
 		</link>
 		<link>
-			<name>kat-4734666547201454881.groovy</name>
+			<name>kat-5202460508460315577.groovy</name>
 			<type>1</type>
-			<location>/var/folders/rm/wx1n4l593_l9hmm2jp4x04y80000gn/T/Katalon/Web Services/kat-4734666547201454881.groovy</location>
+			<location>/var/folders/rm/wx1n4l593_l9hmm2jp4x04y80000gn/T/Katalon/Web Services/kat-5202460508460315577.groovy</location>
 		</link>
 		<link>
-			<name>kat-7494931444460672348.groovy</name>
+			<name>kat-7969338569597830451.groovy</name>
 			<type>1</type>
-			<location>/var/folders/rm/wx1n4l593_l9hmm2jp4x04y80000gn/T/Katalon/Web Services/kat-7494931444460672348.groovy</location>
-		</link>
-		<link>
-			<name>kat-952748064078758087.groovy</name>
-			<type>1</type>
-			<location>/var/folders/rm/wx1n4l593_l9hmm2jp4x04y80000gn/T/Katalon/Web Services/kat-952748064078758087.groovy</location>
+			<location>/var/folders/rm/wx1n4l593_l9hmm2jp4x04y80000gn/T/Katalon/Web Services/kat-7969338569597830451.groovy</location>
 		</link>
 	</linkedResources>
 	<filteredResources>
@@ -432,6 +432,42 @@
 		</filter>
 		<filter>
 			<id>1741697657315</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1741865247886</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1741865247891</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1741866162903</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1741866162909</id>
 			<name></name>
 			<type>6</type>
 			<matcher>

@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>01858683-2190-4cf8-a76d-052766d4d684</webElementGuid>
+      <webElementGuid>05f3411b-d92d-4cf8-9c8b-ff56fa9025ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>3973f1f2-0855-4c2a-8e7a-933939e91fb0</webElementGuid>
+      <webElementGuid>8b2d96e7-d6f9-4d4c-ab1d-5a13dcd0d96a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>name</name>
       <type>Main</type>
       <value>search</value>
-      <webElementGuid>80b486ca-3b2d-4fb5-aeef-1d219a810eb2</webElementGuid>
+      <webElementGuid>386fcd72-05b5-4185-a10a-7df779c92c0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>id</name>
       <type>Main</type>
       <value>search_product</value>
-      <webElementGuid>ca39d537-365b-45ec-87d2-f526fdd6bfa3</webElementGuid>
+      <webElementGuid>6dab0aa2-3e06-484b-8e0a-aabb221763c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Search Product</value>
-      <webElementGuid>02af4f25-e93b-40d7-8107-dcd068061e80</webElementGuid>
+      <webElementGuid>f148e22d-aa68-45ae-8327-f641b8544422</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control input-lg</value>
-      <webElementGuid>c6e6db66-3769-4f53-9f77-ce1ccc99727a</webElementGuid>
+      <webElementGuid>222331de-61fd-415d-bb3d-acd1e6074ab9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;search_product&quot;)</value>
-      <webElementGuid>492408bc-535c-4d68-9b21-95accd0de73c</webElementGuid>
+      <webElementGuid>cbe9e6ba-199d-41f4-9111-6fe5a5015640</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='search_product']</value>
-      <webElementGuid>02a559bf-aa78-4af6-84fa-7729e443e186</webElementGuid>
+      <webElementGuid>ccfaf9c8-7a55-49c5-a65f-9c6a6039a17e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='advertisement']/div/input</value>
-      <webElementGuid>7321adff-49c4-4aa6-a8c4-e810e6e0ce66</webElementGuid>
+      <webElementGuid>dea0160b-d066-47da-a6bb-0857edfcf242</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>5cc0a34b-a165-4e9f-b201-b6aa2bda18c1</webElementGuid>
+      <webElementGuid>13409eb4-4ddd-4dba-b1fd-0e6f5e9d13c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'search' and @id = 'search_product' and @placeholder = 'Search Product']</value>
-      <webElementGuid>5fabca8f-2a4a-4e00-bb9f-d3e69e15ce34</webElementGuid>
+      <webElementGuid>775a22a3-2d6c-4cc9-b4ed-8b0fb269e22f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
