@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>94d814a2-c42b-44ef-bd6e-8612c5c9adce</webElementGuid>
+      <webElementGuid>1e2a79fb-4c3f-484c-a644-9ced01080245</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>data-qa</name>
       <type>Main</type>
       <value>country</value>
-      <webElementGuid>e2e40709-e210-4d42-b705-40f39996f343</webElementGuid>
+      <webElementGuid>8edbc65b-4e14-4558-a97a-d3e52abda795</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>id</name>
       <type>Main</type>
       <value>country</value>
-      <webElementGuid>4a96b96e-149f-4453-a08a-27ef17d872a2</webElementGuid>
+      <webElementGuid>1b046500-8e25-4f84-9633-5d25ae31ea24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>name</name>
       <type>Main</type>
       <value>country</value>
-      <webElementGuid>dc40aada-861f-44ec-8ac1-1dc9a502440c</webElementGuid>
+      <webElementGuid>f7cf4867-9462-41a6-9d45-3a04b362ea2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>c2a89f2a-9561-4bb7-97e9-5b67a704911e</webElementGuid>
+      <webElementGuid>e6e9036a-cb2d-4abb-ad62-b283bf6a0960</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
 								New Zealand
 								Singapore
 							</value>
-      <webElementGuid>6b41abb9-4136-4512-9079-212b32ffaf5a</webElementGuid>
+      <webElementGuid>0562eafb-f870-438e-b9fb-5c1c4dea54b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;country&quot;)</value>
-      <webElementGuid>20796c87-e2b4-45d5-b6bf-3ab9f40a41f5</webElementGuid>
+      <webElementGuid>cd6aa2ac-dcc3-47a9-a632-76c84940ae09</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='country']</value>
-      <webElementGuid>2abe6762-d033-4e3f-9d4c-62a4f7409719</webElementGuid>
+      <webElementGuid>03408d8b-9476-4eeb-8e3d-3a9f2778566a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='form']/div/div/div/div/form/p[6]/select</value>
-      <webElementGuid>70aba547-a13e-4bc9-a08c-83d95b49959d</webElementGuid>
+      <webElementGuid>5dffac92-ceb2-4f72-bfd7-38bd1832cc25</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[7]/following::select[1]</value>
-      <webElementGuid>ab407ccc-a0f3-4cf0-bcbe-5dc748104d19</webElementGuid>
+      <webElementGuid>57c2f65f-60b0-4e6e-aeb2-c816ee892dff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[8]/preceding::select[1]</value>
-      <webElementGuid>e397bcd2-8ea6-45fa-afd7-d4d4e0750271</webElementGuid>
+      <webElementGuid>551dcbde-c4cb-4084-8b02-a767d5525a1e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p[6]/select</value>
-      <webElementGuid>278a3c7b-d2ca-4030-a0cd-10645c7ee849</webElementGuid>
+      <webElementGuid>995e26a0-5228-46d0-baae-4f7680069fc3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,6 +149,6 @@
 								New Zealand
 								Singapore
 							')]</value>
-      <webElementGuid>d10ab2f3-7644-469e-9145-98b9b533feca</webElementGuid>
+      <webElementGuid>823d0dc3-4a2b-4389-b050-2a51778f488d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
