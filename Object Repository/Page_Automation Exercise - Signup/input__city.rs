@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>3b774ec6-2558-49c5-b6ce-b2590154452c</webElementGuid>
+      <webElementGuid>f6084038-fe90-4af7-84dd-d4467c151e7d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>b9fa17ca-c576-4bc2-a0ff-baa4bdae2192</webElementGuid>
+      <webElementGuid>e1077ddb-42dd-4314-be54-e557654bd69e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>data-qa</name>
       <type>Main</type>
       <value>city</value>
-      <webElementGuid>8f706add-398d-48f3-a659-a2fd285db957</webElementGuid>
+      <webElementGuid>68f829f3-ae42-43cd-adba-d75ddea3d462</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>50e0c5d9-bb1f-4507-8b95-c65248a62c92</webElementGuid>
+      <webElementGuid>d0f18e48-3810-4b5c-9e14-01a057ad5634</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>name</name>
       <type>Main</type>
       <value>city</value>
-      <webElementGuid>d5a4ea08-b869-4fbd-b4b5-7eed723779a0</webElementGuid>
+      <webElementGuid>13a22c53-6171-4156-890b-8abcce710172</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>id</name>
       <type>Main</type>
       <value>city</value>
-      <webElementGuid>1b94aa71-81c2-4367-a81c-a6cb2964248d</webElementGuid>
+      <webElementGuid>878aa655-98bb-4600-a636-df9ae5741e47</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;city&quot;)</value>
-      <webElementGuid>cccbc8d1-654b-4469-bb4b-c6fb0b4f07a6</webElementGuid>
+      <webElementGuid>e6be2cfe-8898-4081-8bc5-1e3fc5640d61</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='city']</value>
-      <webElementGuid>584548eb-6ac2-4d03-a40f-947958c179e7</webElementGuid>
+      <webElementGuid>2dcaddf5-b356-42ef-8450-46aca4b9d12d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='form']/div/div/div/div/form/p[8]/input</value>
-      <webElementGuid>0dd34f33-0c03-4773-9edb-9961b39c9104</webElementGuid>
+      <webElementGuid>65ea12d1-3b6e-444d-b279-afa69d9b7fe2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p[8]/input</value>
-      <webElementGuid>8468d653-c6f3-4939-9957-bb18c39057fc</webElementGuid>
+      <webElementGuid>3c942575-1ff3-4719-9b84-bff2db9f64fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'city' and @id = 'city']</value>
-      <webElementGuid>c96c6b65-53e4-48cb-b5fa-8cb68a5fa9c3</webElementGuid>
+      <webElementGuid>f4895f75-ab7e-4476-a9ca-1d67d408c0c6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

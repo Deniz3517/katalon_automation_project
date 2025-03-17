@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Products</name>
+   <name>b_Account Created</name>
    <tag></tag>
-   <elementGuidId>9e7d190a-e8c7-4bd9-8db0-12af44059f42</elementGuidId>
+   <elementGuidId>757f278e-c55c-426c-ace3-7ce6d5b8b311</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//header[@id='header']/div/div/div/div[2]/div/ul/li[2]/a</value>
+         <value>//section[@id='form']/div/div/div/h2/b</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>li:nth-of-type(2) > a</value>
+         <value>b</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot; Products&quot;i]</value>
+         <value>internal:text=&quot;Account Created!&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,87 +28,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>a092e9c1-12db-409a-8d25-ba8ae79e226d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>/products</value>
-      <webElementGuid>5609310d-b45a-49f0-bd86-8fc547e4a34f</webElementGuid>
+      <value>b</value>
+      <webElementGuid>a61756ca-4d82-4da6-8389-d7334b7e55fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Products</value>
-      <webElementGuid>c6b613db-dfee-4abe-9e4c-83ae1e0cf3b1</webElementGuid>
+      <value>Account Created!</value>
+      <webElementGuid>6bb3c3c1-9472-47a0-9314-bd3fa632f7be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;header&quot;)/div[@class=&quot;header-middle&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-8&quot;]/div[@class=&quot;shop-menu pull-right&quot;]/ul[@class=&quot;nav navbar-nav&quot;]/li[2]/a[1]</value>
-      <webElementGuid>b8be79fa-2f46-4d6f-abbc-6be035c3e6d2</webElementGuid>
+      <value>id(&quot;form&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-9 col-sm-offset-1&quot;]/h2[@class=&quot;title text-center&quot;]/b[1]</value>
+      <webElementGuid>10e9e404-24fd-498a-944a-c6f153244f9d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//header[@id='header']/div/div/div/div[2]/div/ul/li[2]/a</value>
-      <webElementGuid>06185856-503d-4429-899d-b90e7516662b</webElementGuid>
+      <value>//section[@id='form']/div/div/div/h2/b</value>
+      <webElementGuid>c6fa881f-66db-4276-b6ad-b5bfd96cc676</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1]</value>
-      <webElementGuid>941f29c1-500d-42a3-94d6-ae5f82edc0fa</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::b[1]</value>
+      <webElementGuid>1fec5a13-321c-41d2-aced-1f67c19e6d5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/preceding::a[1]</value>
-      <webElementGuid>c7daffcf-55cc-48f3-a18e-41a5e97281f9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Video Tutorials'])[1]/following::b[1]</value>
+      <webElementGuid>fe60bbd0-49e4-4f66-9040-fc92fad6b569</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Products']/parent::*</value>
-      <webElementGuid>1d0ab929-45df-4720-b090-691e8fac1caa</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue'])[1]/preceding::b[1]</value>
+      <webElementGuid>eb1fa46c-ee0c-47d0-a3b9-87dd7c8899d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/products')]</value>
-      <webElementGuid>0e2dc282-fd51-483b-bfbd-b94ef0898216</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You have been successfully subscribed!'])[1]/preceding::b[1]</value>
+      <webElementGuid>88022ac3-5174-49c2-ba2a-e1f48bed720d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Account Created!']/parent::*</value>
+      <webElementGuid>18305112-a5b3-4617-bb27-cf027fcfb60b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[2]/a</value>
-      <webElementGuid>47c6e93f-036a-4aea-850d-3883eca0c4c4</webElementGuid>
+      <value>//b</value>
+      <webElementGuid>f098ef74-c877-4557-bd0b-e5a3180f6d0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/products' and (text() = ' Products' or . = ' Products')]</value>
-      <webElementGuid>fd248fc1-fc61-486a-8910-edd50516b098</webElementGuid>
+      <value>//b[(text() = 'Account Created!' or . = 'Account Created!')]</value>
+      <webElementGuid>6f464837-d678-4d62-923e-e2f17c7bd9db</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
