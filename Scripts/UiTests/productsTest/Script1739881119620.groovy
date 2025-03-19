@@ -35,10 +35,3 @@ WebUI.click(findTestObject('Object Repository/Page_Automation Exercise - Product
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Automation Exercise - Product Details/button_Continue Shopping'), 10)
 WebUI.click(findTestObject('Object Repository/Page_Automation Exercise - Product Details/button_Continue Shopping'))
-
-
-WebUI.comment("✅ Test Passed!")
-
-
-WebUI.closeBrowser()
-
