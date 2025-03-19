@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h2_Account Created</name>
+   <name>form_Login</name>
    <tag></tag>
-   <elementGuidId>b2f94907-8171-4920-a395-ebfe54604b12</elementGuidId>
+   <elementGuidId>8aa825de-0c46-47e4-aa81-e8e282641e7a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>h2.title.text-center</value>
+         <value>form</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='form']/div/div/div/h2</value>
+         <value>//form[@action='/login']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=heading[name=&quot;Account Created!&quot;i]</value>
+         <value>form >> internal:has-text=&quot;Login&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,87 +28,113 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h2</value>
-      <webElementGuid>a3e7a27b-2a0c-4f29-acc5-bbbc5ab1e314</webElementGuid>
+      <value>form</value>
+      <webElementGuid>778e9f11-977d-4bde-b08a-bba37ca8daf9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>action</name>
       <type>Main</type>
-      <value>title text-center</value>
-      <webElementGuid>b7e450ba-a146-471c-af65-e361888eff0f</webElementGuid>
+      <value>/login</value>
+      <webElementGuid>a04a288b-96b3-45d6-89ca-d62e3ca0a5a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-qa</name>
+      <name>method</name>
       <type>Main</type>
-      <value>account-created</value>
-      <webElementGuid>466efdd1-ad95-458f-b72d-184e15eb6738</webElementGuid>
+      <value>POST</value>
+      <webElementGuid>5aaaedb5-df95-48d1-95bb-76e108ddd31d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Account Created!</value>
-      <webElementGuid>b01b1f51-0023-4c39-9e00-deeaa9b15692</webElementGuid>
+      <value>
+							
+							
+							
+							
+							Login
+						</value>
+      <webElementGuid>bae5d587-5d88-4776-b025-66ac59ee0007</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-9 col-sm-offset-1&quot;]/h2[@class=&quot;title text-center&quot;]</value>
-      <webElementGuid>19a00c9a-3742-48ee-804c-5f62e54f6659</webElementGuid>
+      <value>id(&quot;form&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-4 col-sm-offset-1&quot;]/div[@class=&quot;login-form&quot;]/form[1]</value>
+      <webElementGuid>c9f6c9b7-5efe-49fc-bc92-fd4255b9b9ff</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//form[@action='/login']</value>
+      <webElementGuid>ab5e14c3-10ee-40eb-afd2-dc6d470ada26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='form']/div/div/div/h2</value>
-      <webElementGuid>1a36d0c0-4da2-411c-9ef1-d5e721ec5694</webElementGuid>
+      <value>//section[@id='form']/div/div/div/div/form</value>
+      <webElementGuid>8b441f15-89b2-412f-9f4d-c92e86adcc00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::h2[1]</value>
-      <webElementGuid>8ae2cc6c-23c8-4104-bf10-59b9abe1f2f7</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login to your account'])[1]/following::form[1]</value>
+      <webElementGuid>7678ec2b-b618-407b-b585-b93a0230c79d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Video Tutorials'])[1]/following::h2[1]</value>
-      <webElementGuid>f54897cf-2fa7-4a0d-b0f9-29a6dc7f2928</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::form[1]</value>
+      <webElementGuid>7ddd5156-e07e-4595-9127-5f43de5acd6f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue'])[1]/preceding::h2[1]</value>
-      <webElementGuid>3df86ec5-d049-4178-b6dd-67ebe83450a2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OR'])[1]/preceding::form[1]</value>
+      <webElementGuid>f7a3b247-f77e-45cf-a348-5a4051ce455f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//h2</value>
-      <webElementGuid>0db9a922-61e8-40bd-b69b-c06a4a6367bf</webElementGuid>
+      <value>//form</value>
+      <webElementGuid>100905b7-61c2-4329-bf9a-c46860c6e934</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//h2[(text() = 'Account Created!' or . = 'Account Created!')]</value>
-      <webElementGuid>34c60566-8be7-4aa5-9650-03300ce57f6a</webElementGuid>
+      <value>//form[(text() = '
+							
+							
+							
+							
+							Login
+						' or . = '
+							
+							
+							
+							
+							Login
+						')]</value>
+      <webElementGuid>8cdf30f9-e040-411f-a8fa-f27840893d58</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

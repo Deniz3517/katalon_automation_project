@@ -6,12 +6,12 @@
    <elementGuidId>757f278e-c55c-426c-ace3-7ce6d5b8b311</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='form']/div/div/div/h2/b</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>b</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='form']/div/div/div/h2/b</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>b</value>
-      <webElementGuid>a61756ca-4d82-4da6-8389-d7334b7e55fa</webElementGuid>
+      <webElementGuid>51234d1c-1f38-4de4-95cf-e432cf1dad4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Account Created!</value>
-      <webElementGuid>6bb3c3c1-9472-47a0-9314-bd3fa632f7be</webElementGuid>
+      <webElementGuid>3626b317-c466-4b21-b02f-890946d28d19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-9 col-sm-offset-1&quot;]/h2[@class=&quot;title text-center&quot;]/b[1]</value>
-      <webElementGuid>10e9e404-24fd-498a-944a-c6f153244f9d</webElementGuid>
+      <webElementGuid>edbeed18-fc30-41ab-9c49-4145bcd6bafe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='form']/div/div/div/h2/b</value>
-      <webElementGuid>c6fa881f-66db-4276-b6ad-b5bfd96cc676</webElementGuid>
+      <webElementGuid>4f90abb6-9bb3-49b0-9d75-6607e0232716</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::b[1]</value>
-      <webElementGuid>1fec5a13-321c-41d2-aced-1f67c19e6d5e</webElementGuid>
+      <webElementGuid>a19b5fe1-0166-4244-ad5a-2211971abe2b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Video Tutorials'])[1]/following::b[1]</value>
-      <webElementGuid>fe60bbd0-49e4-4f66-9040-fc92fad6b569</webElementGuid>
+      <webElementGuid>6c0f9f75-6d9c-4abe-bac8-2158f09c7bea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue'])[1]/preceding::b[1]</value>
-      <webElementGuid>eb1fa46c-ee0c-47d0-a3b9-87dd7c8899d4</webElementGuid>
+      <webElementGuid>07194212-f10b-421c-ac73-82408044fc05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='You have been successfully subscribed!'])[1]/preceding::b[1]</value>
-      <webElementGuid>88022ac3-5174-49c2-ba2a-e1f48bed720d</webElementGuid>
+      <webElementGuid>c85545d7-c5f0-43ee-9d05-606bd1fc5c20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Account Created!']/parent::*</value>
-      <webElementGuid>18305112-a5b3-4617-bb27-cf027fcfb60b</webElementGuid>
+      <webElementGuid>bbc358db-b9b4-4c5f-b1f0-33f8e2477509</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//b</value>
-      <webElementGuid>f098ef74-c877-4557-bd0b-e5a3180f6d0c</webElementGuid>
+      <webElementGuid>ecb462ac-3d88-412c-a9e9-b9f549506e43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//b[(text() = 'Account Created!' or . = 'Account Created!')]</value>
-      <webElementGuid>6f464837-d678-4d62-923e-e2f17c7bd9db</webElementGuid>
+      <webElementGuid>5bdbeb90-2972-41b8-b6fa-57eb8e107d85</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

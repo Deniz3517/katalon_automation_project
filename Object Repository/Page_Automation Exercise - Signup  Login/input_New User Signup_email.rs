@@ -6,12 +6,12 @@
    <elementGuidId>6943c53d-eb56-4a8d-b345-9c88873ab051</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@name='email'])[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.signup-form > form > input[name=&quot;email&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@name='email'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>1349cc62-762e-40e2-9a95-455f5dcb094c</webElementGuid>
+      <webElementGuid>9eb58fc4-933b-4110-bf4b-37902abbb33d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>email</value>
-      <webElementGuid>b51cbd5c-4353-4ca9-9165-73eaf6374bb5</webElementGuid>
+      <webElementGuid>dbb44074-18db-46f7-9906-7f7d935a174e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>data-qa</name>
       <type>Main</type>
       <value>signup-email</value>
-      <webElementGuid>f92f1f29-92ba-4740-a57f-5e6e21ca8f6c</webElementGuid>
+      <webElementGuid>3d2be9d9-c77c-41e8-b098-d413df9e5df7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Email Address</value>
-      <webElementGuid>ee4f6011-452a-45bb-bf7f-34941b690ece</webElementGuid>
+      <webElementGuid>ad35030b-eb9e-4e92-a361-b0aa5d3ea022</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>name</name>
       <type>Main</type>
       <value>email</value>
-      <webElementGuid>dae302af-6d45-4876-91bb-f87e0480ad8e</webElementGuid>
+      <webElementGuid>1305150e-199c-4046-a04e-cd7e2d5adf96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-4&quot;]/div[@class=&quot;signup-form&quot;]/form[1]/input[3]</value>
-      <webElementGuid>1f157efa-6396-4efe-9690-7911101dd60c</webElementGuid>
+      <webElementGuid>9079da21-1aee-441d-a459-82cd590d2745</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@name='email'])[2]</value>
-      <webElementGuid>41fb4784-5c84-4b34-8115-2a804bb26c9a</webElementGuid>
+      <webElementGuid>9758987a-9ad2-4adb-9a88-b9d47c74037e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='form']/div/div/div[3]/div/form/input[3]</value>
-      <webElementGuid>e8b69b13-2cd0-4ca5-84c7-2a4b53155b3d</webElementGuid>
+      <webElementGuid>64694ced-1c2e-4d1a-a8a1-d0d40e07e77c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/form/input[3]</value>
-      <webElementGuid>b762b0a4-e5dd-4d4d-84c5-04578299ef6b</webElementGuid>
+      <webElementGuid>b3a01685-24ac-407d-9f31-43d335aa8801</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'email' and @placeholder = 'Email Address' and @name = 'email']</value>
-      <webElementGuid>6a59f135-979b-4cdb-85ec-e09d599b423c</webElementGuid>
+      <webElementGuid>28f793ff-314d-40cb-b146-1f6275ad442e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

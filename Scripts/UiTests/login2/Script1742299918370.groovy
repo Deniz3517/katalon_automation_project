@@ -17,20 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/Page_Automation Exercise/p_Consent'),FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Object Repository/Page_Automation Exercise/a_Products'),FailureHandling.STOP_ON_FAILURE)
+WebUI.navigateToUrl('https://www.automationexercise.com/')
 
-WebUI.scrollToElement(findTestObject('Page_Automation Exercise - All Products/a_Add to cart'), 0,FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Page_Automation Exercise/p_Consent'))
 
-WebUI.click(findTestObject('Object Repository/Page_Automation Exercise - All Products/a_Add to cart'),FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Page_Automation Exercise/a_Signup  Login'))
 
-WebUI.click(findTestObject('Object Repository/Page_Automation Exercise - All Products/u_View Cart'),FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_email'), 
+    'deniz')
 
-WebUI.click(findTestObject('Object Repository/Page_Automation Exercise - Checkout/i_Blue Top_fa fa-times'),FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Page_Automation Exercise - Signup  Login/form_Login'))
 
-WebUI.click(findTestObject('Object Repository/Page_Automation Exercise - Checkout/p_Cart is empty Click here to buy products'),FailureHandling.STOP_ON_FAILURE)
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_password'), 
+    'tzH6RvlfSTg=')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Automation Exercise - Checkout/p_Cart is empty Click here to buy products'), 
-    'Cart is empty! Click here to buy products.',FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Page_Automation Exercise - Signup  Login/button_Login'))
 
